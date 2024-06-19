@@ -17,8 +17,8 @@ public class TryCatch {
             System.out.println("Olá, me chamo : "+nome+", tenho "+idade+" anos e "+h+" de altura");
             }
             //Prever o erro e solucionar o que serar impresso.
-        }
-        catch (InputMismatchException erro){
+        }catch (InputMismatchException erro){
+            System.out.println("ERRO! Altura deve receber um valor númerico.");
         }
     }
 }
